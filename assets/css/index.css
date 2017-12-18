@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@font-face { font-family: "Overwatch"; src: url("http://us.battle.net/forums/static/fonts/bignoodletoo/bignoodletoo.woff") format('woff'); }
+
+body{
+    background-color: #2c2a2b;
+
+}
+* {
+    font-family: roboto, r, serif;
+    color: white;
+}
+.shadow{
+
+}
+.menulogo{
+    max-width: 50px;
+}
+
+.card {
+    background: rgba(56, 56, 56, 0.8); !important;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+.docnavbar{
+    width: 400px;
+}
+article{
+    margin-top: 1px;
+
+}
