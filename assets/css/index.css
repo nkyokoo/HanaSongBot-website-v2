@@ -20,8 +20,7 @@ body{
 
 .card {
     background: rgba(56, 56, 56, 0.8); !important;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding: 10px 20px 20px;
 
 }
 .docnavbar{
@@ -29,5 +28,10 @@ body{
 }
 article{
     margin-top: 1px;
+
+}
+.docCard{
+    width: 600px;
+    height: auto;
 
 }
