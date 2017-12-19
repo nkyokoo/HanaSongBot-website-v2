@@ -28,12 +28,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
             integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
             crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="assets/index.js"></script>
 </head>
 
 <body body="body">
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #dc2263; color: white;">
-    <a class="navbar-brand" href="#"><img src="../assets/img/logo.png" class="menulogo" alt=""></a>
+    <a class="navbar-brand" href="../"><img src="../assets/img/logo.png" class="menulogo" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -64,7 +65,7 @@
     </div>
 </article>
 <article>
-
+  <div id="app">
       <div class="card">
           <div class="container">
           <div class="docnavbar">
@@ -75,37 +76,32 @@
             <nav class="nav nav-pills flex-column">
                 <a class="nav-link" href="#general">General</a>
                 <nav class="nav nav-pills flex-column">
-                    <a onclick=" toggle_visibility('help'); toggle_visibility('general');" class="nav-link" href="#item-1-1">Help</a></li>
-                    <a class="nav-link" href="#item-1-2">Info</a>
-
+                    <a onclick="toggleVisibility(general) " class="nav-link ml-3 my-1" href="#help">Help</a></li>
+                    <a onclick=" toggleVisibility(help) " class="nav-link ml-3 my-1" href="#info">Info</a>
 
                 </nav>
+                <a class="nav-link" href="#moderation">Moderation</a>
                 <nav class="nav nav-pills flex-column">
-                    <a class="nav-link ml-3 my-1" href="#item-3-1">Item 3-1</a>
+                    <a class="nav-link ml-3 my-1"   href="#item-3-1">Item 3-1</a>
                     <a class="nav-link ml-3 my-1" href="#item-3-2">Item 3-2</a>
                 </nav>
             </nav>
         </nav>
       </div>
+          <div id="general" class="container" style="display: block;">
+              <div class="docCard">
+                  <div class="card">
+                      <div data-spy="scroll" data-target="#navbar" data-offset="0">
+                          <h4 >General</h4>
+                          <p>
+                              General Category contains commands that are standard commands or are commonly used by users.
+
+                          </p>
+                      </div>
+                  </div>
+              </div>
+
       </div>
-          </div>
-
-
-    <div id="general" class="container" style="display: block;">
-        <div class="docCard">
-        <div class="card">
-            <div data-spy="scroll" data-target="#navbar" data-offset="0">
-            <h4 >General</h4>
-            <p>
-                General Category contains commands that are standard commands or are commonly used by users.
-
-            </p>
-            </div>
-        </div>
-    </div>
-    </div>
-
-
     <div id="help" class="card" style="display: none;">
         <div class="docCard">
         <div class="container">
@@ -114,31 +110,59 @@
                  <p><strong>hana.</strong>help</p>
                 <h4>Description</h4>
                 <p>
-                   Displays a list of all commands. It doesn't show any hidden commands. Hidden category is a list of owner commands.
+                   Displays a list of all commands. It doesn't show any hidden commands.
+                    Hidden category is a list of owner commands.
+                    <img ckass="img-fluid" src="https://emily.is-going-to.space/e0f326.png" alt="">
 
                 </p>
                 <h4>Usage</h4>
-                <p>hana.help (doesn't require any parameters)</p>
+                <p><code>hana.help (doesn't require any parameters)</code></p>
             </div>
         </div>
         </div>
         </div>
-    </div>
 
+          <div id="info" class="card" style="display: none;">
+              <div class="docCard">
+                  <div class="container">
+                      <div data-spy="scroll" data-target="#navbar" data-offset="0">
+                          <h4>Info</h4>
+                          <p><strong>hana.</strong>info</p>
+                          <h4>Description</h4>
+                          <p>
+                             Displays information about the bot in a emed.
+                          </p>
+                              <ul>
+                                <li>OS name</li>
+                                <li> Ram usage</li>
+                             </ul>
+                          <img src="https://emily.is-going-to.space/a5fb5f.png" alt="" class="img-fluid">
 
+                          <h4>Usage</h4>
+                          <p><code>hana.info (doesn't require any parameters)</code><br>
+                               It ignores any params given. It get's filtered out.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+          </div>
+      </div>
 
-</article>
+  </article>
 </body>
 <footer>
-    <div class="card">
-        <div class="w-100 p-3">
-            <h4 class="text-center">Copyright © Hana Song Bot Developement Team 2017 </h4>
-            <p class="text-center">
-                All logos and other trademarks belongs to their respectful owner
-            </p>
+    <div class="fixed-bottom">
+        <div class="card">
+            <div class="w-100 p-3">
+                <h4 class="text-center">Copyright © Hana Song Bot Developement Team 2017 </h4>
+                <p class="text-center">
+                    All logos and other trademarks belongs to their respectful owner
+                </p>
+            </div>
         </div>
     </div>
-
 </footer>
 </html>
 

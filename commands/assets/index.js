@@ -1,7 +1,22 @@
-function toggle_visibility(id) {
-    var e = document.getElementById(id);
-    if(e.style.display == 'block')
-        e.style.display = 'none';
-    else
-        e.style.display = 'block';
+var divs = ["general", "help", "info"];
+var visibleDivId = null;
+function toggleVisibility(divId) {
+    if(visibleDivId === divId) {
+        //visibleDivId = null;
+    } else {
+        visibleDivId = divId;
+    }
+    hideNonVisibleDivs();
+}
+function hideNonVisibleDivs() {
+    var i, divId, div;
+    for(i = 0; i < divs.length; i++) {
+        divId = divs[i];
+        div = document.getElementById(divId);
+        if(visibleDivId === divId) {
+            div.style.display = "block";
+        } else {
+            div.style.display = "none";
+        }
+    }
 }
