@@ -12,7 +12,7 @@ body{
     color: white;
 }
 .shadow{
-
+    box-shadow: 5px 3px 3px 3px #000000;
 }
 .menulogo{
     max-width: 50px;
@@ -27,7 +27,7 @@ body{
     width: 400px;
 }
 article{
-    margin-top: 1px;
+    margin-top: 0.5px;
 
 }
 .docCard{
