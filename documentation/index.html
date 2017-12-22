@@ -73,18 +73,28 @@
 
         <nav id="navbar" class="navbar navbar-dark bg-dark">
             <h3>Commands</h3>
-            <nav class="nav nav-pills flex-column">
-                <a class="nav-link" href="#general">General</a>
-                <nav class="nav nav-pills flex-column">
-                    <a onclick="toggleVisibility(general) " class="nav-link ml-3 my-1" href="#help">Help</a></li>
-                    <a onclick=" toggleVisibility(help) " class="nav-link ml-3 my-1" href="#info">Info</a>
+            <div class="dropdown show">
+                <a class="btn btn-secondary dropdown-toggle" href="general/" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    General
+                </a>
 
-                </nav>
-                <a class="nav-link" href="#moderation">Moderation</a>
-                <nav class="nav nav-pills flex-column">
-                    <a class="nav-link ml-3 my-1"   href="#item-3-1">Item 3-1</a>
-                    <a class="nav-link ml-3 my-1" href="#item-3-2">Item 3-2</a>
-                </nav>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">Help</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </div>
+                <div class="dropdown show">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown link
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>v>
             </nav>
         </nav>
       </div>
@@ -102,49 +112,6 @@
               </div>
 
       </div>
-    <div id="help" class="card" style="display: none;">
-        <div class="docCard">
-        <div class="container">
-            <div data-spy="scroll" data-target="#navbar" data-offset="0">
-                <h4>Help</h4>
-                 <p><strong>hana.</strong>help</p>
-                <h4>Description</h4>
-                <p>
-                   Displays a list of all commands. It doesn't show any hidden commands.
-                    Hidden category is a list of owner commands.
-                    <img ckass="img-fluid" src="https://emily.is-going-to.space/e0f326.png" alt="">
-
-                </p>
-                <h4>Usage</h4>
-                <p><code>hana.help (doesn't require any parameters)</code></p>
-            </div>
-        </div>
-        </div>
-        </div>
-
-          <div id="info" class="card" style="display: none;">
-              <div class="docCard">
-                  <div class="container">
-                      <div data-spy="scroll" data-target="#navbar" data-offset="0">
-                          <h4>Info</h4>
-                          <p><strong>hana.</strong>info</p>
-                          <h4>Description</h4>
-                          <p>
-                             Displays information about the bot in a emed.
-                          </p>
-                              <ul>
-                                <li>OS name</li>
-                                <li> Ram usage</li>
-                             </ul>
-                          <img src="https://emily.is-going-to.space/a5fb5f.png" alt="" class="img-fluid">
-
-                          <h4>Usage</h4>
-                          <p><code>hana.info (doesn't require any parameters)</code><br>
-                               It ignores any params given. It get's filtered out.
-                          </p>
-                      </div>
-                  </div>
-              </div>
           </div>
           </div>
           </div>
