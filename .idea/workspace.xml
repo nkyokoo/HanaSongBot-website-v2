@@ -2,17 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86774d76-b913-4fdb-a3ee-ecba14288ace" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/documentation/general/help.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/documentation/general/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/documentation/general/info.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/documentation/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/documentation/moderation/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/documentation/music/index.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/commands/assets/index.js" afterPath="$PROJECT_DIR$/documentation/assets/index.js" />
-      <change beforePath="$PROJECT_DIR$/commands/index.html" afterPath="$PROJECT_DIR$/documentation/fun/index.html" />
-      <change beforePath="$PROJECT_DIR$/discord/index.html" afterPath="$PROJECT_DIR$/discord/index.html" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css/bootstrap-grid.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css/bootstrap-grid.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css/bootstrap-grid.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css/bootstrap-grid.min.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css/bootstrap-reboot.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css/bootstrap-reboot.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css/bootstrap-reboot.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css/bootstrap-reboot.min.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css/bootstrap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css/bootstrap.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css/bootstrap.min.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bootstrap.bundle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bootstrap.bundle.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bootstrap.bundle.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bootstrap.bundle.min.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bootstrap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bootstrap.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bootstrap.min.js.map" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -236,12 +245,6 @@
             <path>
               <item name="skoleprojekt" type="b2602c69:ProjectViewProjectNode" />
               <item name="skoleprojekt" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skoleprojekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skoleprojekt" type="462c0819:PsiDirectoryNode" />
               <item name="discord" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -417,12 +420,12 @@
       <workItem from="1513681871389" duration="4646000" />
       <workItem from="1513754413028" duration="5158000" />
       <workItem from="1513839892766" duration="1994000" />
-      <workItem from="1513925066408" duration="4807000" />
+      <workItem from="1513925066408" duration="4930000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76694000" />
+    <option name="totallyTimeSpent" value="76817000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -435,7 +438,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32966024" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -450,7 +452,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32966024" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32330826" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32330826" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925585" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27940017" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
