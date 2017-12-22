@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Meta Data -->
     <meta name="theme-color" content="#2196F3">
-    <meta content="assets/dva.jpg" property="og:image" />
+    <meta content="../assets/dva.jpg" property="og:image" />
     <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
     <meta content="Hana Song Bot" property="og:title" />
     <meta content="Hana Song Bot website" property="og:description" />
     <meta name="revisit-after" content="2 days">
-    <meta name="keywords" content="discord, bot, discord bot">
+    <meta name="keywords" content=" Twitter, Developer, Github">
     <meta charset="UTF-8">
 
     <!-- CSS/JS stuff -->
@@ -32,7 +32,7 @@
     <script src="assets/index.js"></script>
 </head>
 
-<body body="body">
+<body class="body">
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #dc2263; color: white;">
     <a class="navbar-brand" href="../"><img src="../assets/img/logo.png" class="menulogo" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -47,10 +47,10 @@
                 <a class="nav-link" href="../">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../documentation/">Commands</a>
+                <a class="nav-link" href="#">Commands</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Discord</a>
+                <a class="nav-link" href="../discord/">Discord</a>
             </li>
 
 
@@ -59,27 +59,61 @@
 </nav>
 <article>
     <div class="card">
-        <h2 class="text-center">
-            Hana Song Bot Discord Server
-        </h2>
+        <h1 class="text-center">
+            Hana Song Bot Documentation
+        </h1>
     </div>
 </article>
+<article>
+    <div id="app">
+        <div class="card">
+            <div class="container">
+                <div class="docnavbar">
+                    <div class="w-75 p-3">
 
-<div class="card">
-    <div class="container">
-        <p>
-            Join our discord server to engage in our community, meet new people, share cat gifs.<br>
-            We have some really nice people.
-        </p>
-        <iframe
-            src="https://discordapp.com/widget?id=345117442759983104&theme=dark"
-            width="350" height="500" allowtransparency="true" frameborder="0">
-    </iframe>
-</div>
-</div>
+                        <nav id="navbar" class="navbar navbar-dark bg-dark">
+                            <h3>Commands</h3>
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link" href="#general">General</a>
+                                <nav class="nav nav-pills flex-column">
+                                    <a class="nav-link ml-3 my-1" href="#help">Help</a></li>
+                                    <a class="nav-link ml-3 my-1" href="#info">Info</a>
 
-</body>
+                                </nav>
+                                <a class="nav-link" href="#moderation">Moderation</a>
+                                <nav class="nav nav-pills flex-column">
+                                    <a class="nav-link ml-3 my-1"   href="#item-3-1">Item 3-1</a>
+                                    <a class="nav-link ml-3 my-1" href="#item-3-2">Item 3-2</a>
+                                </nav>
+                            </nav>
+                        </nav>
+                    </div>
+                    <div id="help" class="card" style="display: none;">
+                        <div class="docCard">
+                            <div class="container">
+                                <div data-spy="scroll" data-target="#navbar" data-offset="0">
+                                    <h4>Help</h4>
+                                    <p><strong>hana.</strong>help</p>
+                                    <h4>Description</h4>
+                                    <p>
+                                        Displays a list of all commands. It doesn't show any hidden commands.
+                                        Hidden category is a list of owner commands.
+                                        <img ckass="img-fluid" src="https://emily.is-going-to.space/e0f326.png" alt="">
+
+                                    </p>
+                                    <h4>Usage</h4>
+                                    <p><code>hana.help (doesn't require any parameters)</code></p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</article>
 <footer>
+
     <div class="card">
         <div class="w-100 p-3">
             <h4 class="text-center">Copyright © Hana Song Bot Developement Team 2017 </h4>
@@ -89,6 +123,8 @@
         </div>
     </div>
 </footer>
+</body>
+
 </html>
 
 
